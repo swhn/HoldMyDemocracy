@@ -19,10 +19,12 @@
         //do something later when date is reached
         if (distance < 0) {
           let headline = document.getElementById("headline"),
+imag = document.getElementById("imag"),
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
           headline.innerText = "OHHHH YOU GOT DEMOCRACY!!!";
+imag.src="final.jpg";
           countdown.style.display = "none";
           content.style.display = "block";
 
